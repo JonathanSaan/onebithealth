@@ -12,16 +12,12 @@ const ResultIMC = ({ messageImc, imc }) => {
     return (
         <View style={styles.resultImc}>
             <View style={styles.boxShareButton}>
-                {imc != null ? 
-                    <TouchableOpacity onPress={onShare} style={styles.shared}>
-                        <Text style={styles.sharedText}>Share</Text>
-                    </TouchableOpacity>
-                : 
-                    <View/>
-                }
+                <Text style={styles.information}>{messageImc}</Text>
+                <Text style={styles.numberImc}>{imc}</Text>
+                <TouchableOpacity onPress={onShare} style={styles.shared}>
+                    <Text style={styles.sharedText}>Share</Text>
+                </TouchableOpacity>
             </View>
-            <Text style={styles.information}>{messageImc}</Text>
-            <Text style={styles.numberImc}>{imc}</Text>
         </View>
     );
 };
