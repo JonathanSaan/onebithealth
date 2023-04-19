@@ -8,6 +8,11 @@ const styles = StyleSheet.create({
     width: "100%",
     alignItems: "center",
   },
+  boxShareButton: {
+    alignItems: "center",
+    marginBottom: 10,
+    width: "100%",
+  },
   information: {
     fontSize: 18,
     color: "#FF0043",
@@ -17,11 +22,6 @@ const styles = StyleSheet.create({
     fontSize: 48,
     color: "#FF0043",
     fontWeight: "bold",
-  },
-  boxShareButton: {
-    width: "100%",
-    alignItems: "center",
-    marginBottom: 10,
   },
   shared: {
     backgroundColor: "#1877f2",
