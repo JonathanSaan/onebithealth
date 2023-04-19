@@ -2,5 +2,5 @@
 
 ## Built with
 * React Native
-* JavaScript
 * Expo
+* JavaScript
